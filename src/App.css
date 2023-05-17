@@ -1,2 +1,38 @@
+.App {
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 200px;
+}
 
+.numberDiv {
+    display: flex;
+    justify-content: space-between;
+}
 
+.numberBtn {
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.numberCase {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
